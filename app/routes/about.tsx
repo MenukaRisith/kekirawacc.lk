@@ -234,7 +234,7 @@ export default function AboutPage() {
             <FacilityCard
               title="ICT laboratories"
               description="Dedicated ICT labs with networked computers support ICT lessons, programming, digital design and project work guided by the ICT staff and KCCICTS initiatives."
-              imageSrc="/images/facilities/ict-lab.webp"
+              imageSrc="/images/life/labs.webp"
               imageAlt="Students using computers in an ICT laboratory"
             />
             <FacilityCard
@@ -258,14 +258,8 @@ export default function AboutPage() {
             <FacilityCard
               title="Playgrounds & sports areas"
               description="Open grounds and courts support athletics, cricket, volleyball and other sports, helping students develop fitness, teamwork and school spirit."
-              imageSrc="/images/facilities/playground.webp"
+              imageSrc="/images/life/sports.webp"
               imageAlt="Students practising on the school playground"
-            />
-            <FacilityCard
-              title="Special sections & learning zones"
-              description="Facilities for Mahaweli Kalapaya, aesthetic subjects and co-curricular activities give students dedicated spaces to explore talents and leadership."
-              imageSrc="/images/facilities/mahaweli-section.webp"
-              imageAlt="Section of the school dedicated to Mahaweli Kalapaya"
             />
           </div>
         </div>
@@ -363,7 +357,7 @@ function FacilityCard(props: {
   return (
     <div className="rounded-2xl border border-gray-200 bg-gray-50 overflow-hidden shadow-sm flex flex-col">
       {imageSrc && (
-        <div className="w-full aspect-[4/3] bg-gray-200">
+        <div className="w-full h-48 bg-gray-200">
           <img
             src={imageSrc}
             alt={imageAlt || title}

@@ -324,7 +324,7 @@ export default function IndexPage() {
               link="/clubs"
               linkLabel="View clubs & societies"
               imageAlt="Students participating in a club activity"
-              imageSrc="/images/clubs.webp"
+              imageSrc="/images/life/clubs.webp"
             />
             <FeatureRow
               align="left"

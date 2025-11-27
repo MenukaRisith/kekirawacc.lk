@@ -41,10 +41,10 @@ export default function SportsPage() {
         </p>
 
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
-          <HouseCard name="Ravana" color="bg-[#C62828]" />
-          <HouseCard name="Gemunu" color="bg-[#283593]" />
-          <HouseCard name="Parakum" color="bg-[#4CAF50]" />
-          <HouseCard name="Vijaya" color="bg-[#F9A825]" />
+          <HouseCard name="Anura" color="bg-[#F9A825]" />
+          <HouseCard name="Kelani" color="bg-[#4CAF50]" />
+          <HouseCard name="Thissara" color="bg-[#C62828]" />
+          <HouseCard name="Vijitha" color="bg-[#283593]" />
         </div>
       </section>
 

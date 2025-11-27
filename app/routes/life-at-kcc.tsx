@@ -71,18 +71,6 @@ export default function LifeAtKCCPage() {
         imageAlt="Student in a sports event"
       />
 
-      {/* ⭐ NEW BLOCK — Mahaweli Kalapaya ⭐ */}
-      <LifeBlock
-        align="right"
-        eyebrow="Mahaweli Kalapaya"
-        title="A Proud Identity Beyond Classrooms"
-        text="Mahaweli Kalapaya represents a unique segment of school life at KCC, offered for students in Grades 9 to 11. It focuses on discipline, cultural values, leadership, teamwork and the spirit of community. Students take part in traditional activities, house duties, community events, leadership tasks and team-based competitions that build character and responsibility beyond academics."
-        linkTo="/life-at-kcc#mahaweli"
-        linkLabel="Learn more about Mahaweli Kalapaya"
-        imageSrc="/images/life/mahaweli.webp"
-        imageAlt="Students taking part in Mahaweli Kalapaya activities"
-      />
-
       <LifeBlock
         align="left"
         eyebrow="Leadership"
