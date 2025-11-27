@@ -1,0 +1,12 @@
+export function loader() {
+  return new Response(
+    `User-agent: *
+Allow: /
+
+Sitemap: https://www.kekirawacentralcollege.lk/sitemap.xml
+`,
+    {
+      headers: { "Content-Type": "text/plain" },
+    }
+  );
+}

@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+    scroll-behavior: smooth;
+}
+
+.radial-bg {
+  background: radial-gradient(circle,
+      #0A1833 0%,
+      #0A101F 100%);
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.loading-dots .dot {
+  animation: blink 1.4s infinite;
+  font-size: 1.5rem;
+}
+
+.loading-dots .dot1 {
+  animation-delay: 0s;
+}
+
+.loading-dots .dot2 {
+  animation-delay: 0.2s;
+}
+
+.loading-dots .dot3 {
+  animation-delay: 0.4s;
+}
